@@ -13,7 +13,7 @@ import NewDoctor from "../pages/newdoctor/NewDoctor"
 
 export const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/healthsystem",
         element: <Login/>,
         children: [],
     },
