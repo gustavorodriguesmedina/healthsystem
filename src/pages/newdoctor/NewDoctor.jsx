@@ -7,7 +7,7 @@ import MainHeader from "../../components/Header/MainHeader/MainHeader"
 const NewDoctor = () => {
     return(
         <>
-            <MainHeader path="/services" username="Gustavo Medina" description="Cadastre um novo médico."/>
+            <MainHeader path="/services" username="Gustavo Medina" description="Cadastre um novo mÃ©dico."/>
             <main className={`${'new-doctor-container'} ${'container'} ${'anime-left'}`}>
                 <SecondaryInput label="Nome Completo" type="text"/>
                 <SecondaryInput label="Email" type="text"/>
