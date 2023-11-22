@@ -1,0 +1,79 @@
+.appointment-popup-container{
+    position: fixed;
+    background: var(--background-popup);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.appointment-popup-content{
+    padding: 1rem;
+    background: var(--color-n10);
+    border-radius: 10px;
+    width: 360px;
+}
+
+.appointment-popup-header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: var(--typography-p);
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--color-n2);
+}
+
+.appointment-popup-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: .5rem;
+    font-family: var(--typography-s);
+    color: var(--color-n3);
+}
+
+.appointment-popup-text-name{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.appointment-popup-text-details{
+    display: flex;
+    gap: .25rem;
+}
+
+.appointment-popup-text-details span:first-child{
+    font-weight: 500;
+}
+
+.appointment-popup-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.appointment-popup-form-date{
+    display: flex;
+    justify-content: space-between;
+}
+
+.appointment-popup-form-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.appointment-popup-close{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+.appointment-popup-close img{
+    height: 24px;
+    cursor: pointer;
+    padding: .25rem;
+}

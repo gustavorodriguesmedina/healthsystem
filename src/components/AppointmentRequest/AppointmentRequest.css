@@ -1,0 +1,33 @@
+.appointment-request-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5rem;
+    background: var(--color-n12);
+    border-radius: 10px;
+    font-family: var(--typography-s);
+    color: var(--color-n3);
+    width: 360px;
+    padding: 1rem;
+    box-shadow: var(--shadow-0);
+    cursor: pointer;
+}
+
+.appointment-request-name{
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: var(--color-n2);
+}
+
+.appointment-request-unit{
+    max-width: 260px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.appointment-request-content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}

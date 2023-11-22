@@ -1,0 +1,22 @@
+.secondary-select{
+    background: var(--color-n12);
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    font-family: var(--typography-s);
+    font-weight: 600;
+    color: var(--color-n4);
+    box-shadow: var(--shadow-0);
+}
+
+.secondary-select-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.secondary-select-label{
+    font-family: var(--typography-s);
+    font-weight: 600;
+    margin-bottom: .5rem;
+    color: var(--color-n6);
+}

@@ -1,0 +1,25 @@
+.next-appointment{
+    background: var(--color-n12);
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.next-appointment-container{
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+}
+
+.next-appointment-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    gap: .5rem;
+    font-family: var(--typography-s);
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.next-appointment-text h3{
+    font-weight: 500;
+}

@@ -1,0 +1,27 @@
+.secondary-input{
+    background: var(--color-n12);
+    border: none;
+    border-radius: 10px;
+    box-shadow: var(--shadow-0);
+    padding: .8rem;
+    font-family: var(--typography-s);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--color-n3);
+}
+
+.secondary-input-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.secondary-label{
+    font-family: var(--typography-s);
+    font-weight: 600;
+    margin-bottom: .5rem;
+    color: var(--color-n6);
+}
+
+.secondary-input:focus{
+    outline: none;
+}

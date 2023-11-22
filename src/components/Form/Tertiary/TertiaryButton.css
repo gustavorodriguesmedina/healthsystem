@@ -1,0 +1,11 @@
+.tertiary-button{
+    background: none;
+    border: none;
+    font-family: var(--typography-s);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-n12);
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}

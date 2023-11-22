@@ -1,0 +1,20 @@
+.new-appointment-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: 320px;
+}
+
+.appointment-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.new-appointment-date{
+    display: flex;
+    justify-content: space-between;
+}

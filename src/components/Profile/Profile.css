@@ -1,0 +1,30 @@
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    background: var(--color-n12);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: var(--shadow-0);
+}
+
+.profile-container-data{
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    font-family: var(--typography-s);
+}
+
+.profile-container-details{
+    display: flex;
+    gap: .25rem;
+}
+
+.profile-container-details span:first-child{
+    font-weight: 500;
+}
+
+.profile-container-name{
+    font-size: 1.4rem;
+}

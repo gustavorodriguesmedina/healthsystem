@@ -1,0 +1,25 @@
+.appointment{
+    background: var(--color-n12);
+    border-radius: 10px;
+    box-shadow: var(--shadow-0);
+}
+
+.appointment-container{
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+}
+
+.appointment-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    gap: .5rem;
+    font-family: var(--typography-s);
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.appointment-text h3{
+    font-weight: 500;
+}

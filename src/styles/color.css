@@ -1,0 +1,36 @@
+:root{
+    --color-p0: #001A22;
+    --color-p1: #023545;
+    --color-p2: #09546B;
+    --color-p3: #157593;
+    --color-p4: #289FC5;
+    --color-p5: #32C2F0;
+    --color-p6: linear-gradient(47deg, #289FC5 -47.49%, #32C2F0 26.15%, #82DEFB 111.37%);
+
+    --color-n0: #000000;
+    --color-n1: #121212;
+    --color-n2: #2E2E2E;
+    --color-n3: #404040;
+    --color-n4: #595959;
+    --color-n5: #707070;
+    --color-n6: #939393;
+    --color-n7: #B3B3B3;
+    --color-n8: #CCCCCC;
+    --color-n9: #DEDEDE;
+    --color-n10: #EDEDED;
+    --color-n11: #F7F7F7;
+    --color-n12: #FFFFFF;
+
+    --color-a0: #FF5C00;
+
+    --color-select-0: #FFFFFF;
+    --color-select-1: #EDEDED;
+
+    --color-accept: #00CC39;
+    --color-deny: #CC0000;
+    --color-blocked: #757575;
+
+    --background-popup: rgba(0, 0, 0, 0.60);
+
+    --shadow-0: 0px 0px 4px 4px rgba(204, 204, 204, 0.16); 
+}

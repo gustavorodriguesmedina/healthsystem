@@ -1,0 +1,30 @@
+.primary-input{
+    background: none;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem 0 1rem 0;
+    font-family: var(--typography-s);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--color-n3);
+}
+
+.primary-input-container::after{
+    content: '';
+    height: 4px;
+    width: 100%;
+    background: linear-gradient(43deg, #289FC5 1.66%, #32C2F0 52.73%, #82DEFB 111.84%);
+    display: block;
+    border-radius: 5px;
+}
+
+
+.primary-input::placeholder{
+    font-family: var(--typography-s);
+    font-size: 1rem;
+    color: var(--color-n5);
+}
+
+.primary-input:focus{
+    outline: none;
+}
